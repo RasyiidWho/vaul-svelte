@@ -32,11 +32,11 @@ export function handlePositionFixed({
 		// Update the dom inside an animation frame
 		const { scrollX, innerHeight } = window;
 
-		document.body.style.setProperty("position", "fixed", "important");
-		document.body.style.top = `${-scrollPos}px`;
-		document.body.style.left = `${-scrollX}px`;
-		document.body.style.right = "0px";
-		document.body.style.height = "auto";
+		// document.body.style.setProperty("position", "fixed", "important");
+		// document.body.style.top = `${-scrollPos}px`;
+		// document.body.style.left = `${-scrollX}px`;
+		// document.body.style.right = "0px";
+		// document.body.style.height = "auto";
 
 		setTimeout(
 			() =>
